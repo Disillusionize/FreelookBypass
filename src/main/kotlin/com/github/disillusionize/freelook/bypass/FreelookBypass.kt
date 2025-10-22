@@ -1,6 +1,8 @@
 package com.github.disillusionize.freelook.bypass
 
+import cc.polyfrost.oneconfig.libs.universal.UDesktop
 import cc.polyfrost.oneconfig.utils.Notifications
+import cc.polyfrost.oneconfig.utils.dsl.browseLink
 import net.minecraftforge.fml.common.Loader
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.event.FMLInitializationEvent
@@ -19,7 +21,9 @@ object FreelookBypass {
     @Mod.EventHandler
     fun onInit(event: FMLInitializationEvent) {
         if (!Loader.isModLoaded("freelook")) {
-            Notifications.INSTANCE.send("Freelook Bypass", "You need Freelook to use this!")
+            Notifications.INSTANCE.send("Freelook Bypass", "You need Freelook to use this! Click to open Download.", Runnable {
+                UDesktop.browseLink("https://modrinth.com/mod/freelook-oneconfig")
+            })
         }
     }
 }

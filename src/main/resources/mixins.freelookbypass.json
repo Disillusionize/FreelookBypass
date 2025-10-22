@@ -5,6 +5,7 @@
   "refmap": "mixins.${mod_id}.refmap.json",
   "mixins": [
     "FreelookConfigMixin",
-    "FreelookHookMixin"
+    "FreelookHookMixin",
+    "ModListMixin"
   ]
 }
