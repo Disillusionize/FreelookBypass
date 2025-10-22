@@ -1,0 +1,10 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.7",
+  "package": "com.github.disillusionaize.freelook.bypass.mixins",
+  "refmap": "mixins.${mod_id}.refmap.json",
+  "mixins": [
+    "FreelookConfigMixin",
+    "FreelookHookMixin"
+  ]
+}

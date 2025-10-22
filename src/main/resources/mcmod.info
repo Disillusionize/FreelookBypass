@@ -1,0 +1,13 @@
+[
+  {
+    "modid": "${mod_id}",
+    "name": "${mod_name}",
+    "description": "Allows you to use freelook on Hypixel.",
+    "version": "${mod_version}",
+    "mcversion": "${mc_version}",
+    "url": "https://github.com/orgs/Disillusionize/FreelookBypass",
+    "authorList": [
+      "disillusionize", "awruff", "sophia2605"
+    ]
+  }
+]
