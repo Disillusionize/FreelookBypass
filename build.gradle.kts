@@ -2,14 +2,13 @@ import dev.deftu.gradle.utils.GameSide
 
 plugins {
     id("java")
-    kotlin("jvm")
-    id("dev.deftu.gradle.multiversion")
-    id("dev.deftu.gradle.tools")
-    id("dev.deftu.gradle.tools.resources")
-    id("dev.deftu.gradle.tools.bloom")
-    id("dev.deftu.gradle.tools.shadow")
-    id("dev.deftu.gradle.tools.minecraft.loom")
-    id("dev.deftu.gradle.tools.minecraft.releases")
+    kotlin("jvm") version("1.9.10")
+    id("dev.deftu.gradle.tools") version("2.59.+")
+    id("dev.deftu.gradle.tools.resources") version("2.59.+")
+    id("dev.deftu.gradle.tools.bloom") version("2.59.+")
+    id("dev.deftu.gradle.tools.shadow") version("2.59.+")
+    id("dev.deftu.gradle.tools.minecraft.loom") version("2.59.+")
+    id("dev.deftu.gradle.tools.minecraft.releases") version("2.59.+")
 }
 
 repositories {
